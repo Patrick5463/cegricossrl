@@ -75,3 +75,61 @@ h1, h2 {
 p {
     margin-bottom: 1rem;
 }
+
+/* Contact Form Styling */
+.form-container {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    background-color: var(--white);
+    color: var(--text-color);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #013d6b;
+}
+
+button:active {
+    background-color: #003e6b;
+}
